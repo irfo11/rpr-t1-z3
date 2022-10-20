@@ -28,9 +28,9 @@ public class Sat {
         else
             for(int i = 0; i<-pomak; i++) Prethodni();
     }
-    public int DajSate() { return sati; }
-    public int DajMinute() { return minute; }
-    public int DajSekunde() { return sekunde; }
+    final public int DajSate() { return sati; }
+    final public int DajMinute() { return minute; }
+    final public int DajSekunde() { return sekunde; }
     public void Ispisi() {
         System.out.println(sati + ":" + minute + ":" + sekunde);
     }
